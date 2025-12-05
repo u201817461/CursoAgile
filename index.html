@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulador de Velocidad</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulador de Velocidad</h1>
+        <label for="distance">Distancia (m):</label>
+        <input type="number" id="distance" min="0" placeholder="Ingrese la distancia">
+
+        <label for="time">Tiempo (s):</label>
+        <input type="number" id="time" min="0" placeholder="Ingrese el tiempo">
+
+        <button id="calculateBtn">Calcular Velocidad</button>
+
+        <div class="result" id="result"></div>
+        <canvas id="chart"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
